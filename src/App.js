@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='home-page'>
       
-      <button className='modal-btn' onClick={()=>setModalOpen(true)}>Modal</button>
+      <button className='modal-btn' onClick={()=>setModalOpen(true)}>Click here to see Modal</button>
       <Modal open={modalOpen} onClose={()=>setModalOpen(false)} />
     </div>
   );
